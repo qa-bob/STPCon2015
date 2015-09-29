@@ -1,0 +1,123 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiChunkedBitmapCtrl(HostScreen) {
+   profile = "GuiContentProfile";
+   horizSizing = "width";
+   vertSizing = "height";
+   position = "0 0";
+   extent = "640 480";
+   minExtent = "8 8";
+   visible = "1";
+   helpTag = "0";
+   bitmap = "./background.jpg";
+   useVariable = "0";
+   tile = "0";
+
+   new GuiControl() {
+      profile = "GuiWindowProfile";
+      horizSizing = "center";
+      vertSizing = "center";
+      position = "60 74";
+      extent = "455 308";
+      minExtent = "8 8";
+      visible = "1";
+      helpTag = "0";
+
+      new GuiTextCtrl() {
+         profile = "GuiTextProfile";
+         horizSizing = "right";
+         vertSizing = "bottom";
+         position = "12 36";
+         extent = "90 20";
+         minExtent = "8 8";
+         visible = "1";
+         helpTag = "0";
+         text = "Select Mission:";
+         maxLength = "255";
+      };
+      new GuiButtonCtrl() {
+         profile = "GuiButtonProfile";
+         horizSizing = "right";
+         vertSizing = "bottom";
+         position = "320 271";
+         extent = "127 23";
+         minExtent = "8 8";
+         visible = "1";
+         command = "StartHost();";
+         helpTag = "0";
+         text = "Start Hosting";
+      };
+      new GuiScrollCtrl() {
+         profile = "GuiScrollProfile";
+         horizSizing = "right";
+         vertSizing = "bottom";
+         position = "10 62";
+         extent = "436 200";
+         minExtent = "8 8";
+         visible = "1";
+         helpTag = "0";
+         willFirstRespond = "1";
+         hScrollBar = "dynamic";
+         vScrollBar = "alwaysOn";
+         constantThumbHeight = "0";
+         defaultLineHeight = "15";
+         childMargin = "0 0";
+
+         new GuiTextListCtrl(HostMissionList) {
+            profile = "GuiTextArrayProfile";
+            horizSizing = "right";
+            vertSizing = "bottom";
+            position = "0 0";
+            extent = "394 54";
+            minExtent = "8 8";
+            visible = "1";
+            helpTag = "0";
+            enumerate = "0";
+            resizeCell = "1";
+            columns = "0";
+            fitParentWidth = "1";
+            clipColumnText = "0";
+               noDuplicates = "false";
+         };
+      };
+      new GuiTextEditCtrl() {
+         profile = "GuiTextEditProfile";
+         horizSizing = "right";
+         vertSizing = "bottom";
+         position = "98 15";
+         extent = "134 16";
+         minExtent = "8 8";
+         visible = "1";
+         variable = "pref::Player::Name";
+         helpTag = "0";
+         maxLength = "255";
+         historySize = "0";
+         password = "0";
+         tabComplete = "0";
+      };
+      new GuiTextCtrl() {
+         profile = "GuiTextProfile";
+         horizSizing = "right";
+         vertSizing = "bottom";
+         position = "12 11";
+         extent = "79 20";
+         minExtent = "8 8";
+         visible = "1";
+         helpTag = "0";
+         text = "Player Name:";
+         maxLength = "255";
+      };
+      new GuiButtonCtrl() {
+         profile = "GuiButtonProfile";
+         horizSizing = "right";
+         vertSizing = "bottom";
+         position = "10 272";
+         extent = "127 23";
+         minExtent = "8 8";
+         visible = "1";
+         command = "Canvas.setContent(MenuScreen);";
+         helpTag = "0";
+         text = "Menu";
+      };
+   };
+};
+//--- OBJECT WRITE END ---

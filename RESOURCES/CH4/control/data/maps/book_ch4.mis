@@ -1,0 +1,61 @@
+//--- OBJECT WRITE BEGIN ---
+new SimGroup(MissionGroup) {
+
+   new ScriptObject(MissionInfo) {
+         name = "Book A";
+         desc0 = "A basic somewhat smooth map.";
+   };
+   new MissionArea(MissionArea) {
+      area = "-152 -352 1040 1056";
+      flightCeiling = "300";
+      flightCeilingRange = "20";
+         locked = "true";
+   };
+   new Sky(Sky) {
+      position = "-1088 -928 0";
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      materialList = "./sky_day.dml";
+      cloudHeightPer[0] = "0.349971";
+      cloudHeightPer[1] = "0.25";
+      cloudHeightPer[2] = "0.199973";
+      cloudSpeed1 = "0.0002";
+      cloudSpeed2 = "0.0004";
+      cloudSpeed3 = "0.0006";
+      visibleDistance = "1100";
+      fogDistance = "1000";
+      fogColor = "0.820000 0.828000 0.844000 1.000000";
+      fogVolume1 = "500 0 200";
+      fogVolume2 = "0 0 0";
+      fogVolume3 = "0 0 0";
+      fogVolumeColor1 = "128.000000 128.000000 128.000000 -222768174765569860000000000000000000000.000000";
+      fogVolumeColor2 = "128.000000 128.000000 128.000000 0.000000";
+      fogVolumeColor3 = "128.000000 128.000000 128.000000 -170698929442160050000000000000000000000.000000";
+      windVelocity = "0.1 0.1 0";
+      windEffectPrecipitation = "1";
+      SkySolidColor = "0.547000 0.641000 0.789000 0.000000";
+      useSkyTextures = "1";
+      renderBottomTexture = "0";
+      noRenderBans = "0";
+         locked = "true";
+   };
+   new Sun() {
+      direction = "0.635001 0.635001 -0.439941";
+      color = "0.888000 0.885000 0.780000 1.000000";
+      ambient = "0.400000 0.400000 0.400000 1.000000";
+         locked = "true";
+         rotation = "1 0 0 0";
+         position = "0 0 0";
+         scale = "1 1 1";
+   };
+   new TerrainBlock(Terrain) {
+      rotation = "1 0 0 0";
+      scale = "1 1 1";
+      detailTexture = "./detail1";
+      terrainFile = "./book_ch4.ter";
+      squareSize = "8";
+         locked = "true";
+         position = "-1024 -1024 0";
+   };
+};
+//--- OBJECT WRITE END ---

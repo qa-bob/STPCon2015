@@ -1,0 +1,240 @@
+//-------------------------- 2/4/2012 -- 23:10:57 -----
+Loading compiled script common/main.cs.
+Missing file: common/defaults.cs!
+Loading compiled script control/main.cs.
+Loading compiled script control/client/presets.cs.
+Loading compiled script control/server/presets.cs.
+++++++++++++ Loading Add-ons ++++++++++++
+Engine initialization complete.
+
+--------- Initializing MOD: Common ---------
+Loading compiled script common/client/canvas.cs.
+Loading compiled script common/client/audio.cs.
+
+++++++++++++ Initializing control module ++++++++++++
+Loading compiled script control/client/initialize.cs.
+Loading compiled script control/server/initialize.cs.
+
+++++++++++++ Initializing module: emaga6 server ++++++++++++
+Loading compiled script common/server/audio.cs.
+Loading compiled script common/server/server.cs.
+Loading compiled script common/server/message.cs.
+Loading compiled script common/server/commands.cs.
+Loading compiled script common/server/missionInfo.cs.
+Loading compiled script common/server/missionLoad.cs.
+Loading compiled script common/server/missionDownload.cs.
+Loading compiled script common/server/clientConnection.cs.
+Missing file: common/server/kickban.cs!
+Loading compiled script common/server/game.cs.
+Loading compiled script control/server/server.cs.
+
+++++++++++++ Initializing module: emaga6 client ++++++++++++
+Loading compiled script common/client/message.cs.
+Loading compiled script common/client/mission.cs.
+Loading compiled script common/client/missionDownload.cs.
+Loading compiled script common/client/actionMap.cs.
+Loading compiled script common/editor/editor.cs.
+Missing file: common/client/scriptDoc.cs!
+Video Init:
+   Accelerated OpenGL display device detected.
+   Accelerated D3D device detected.
+   Voodoo 2 display device not detected.
+
+Activating the OpenGL display device...
+Activating the OpenGL display device...
+Setting screen mode to 800x600x32 (w)...
+Creating a new window...
+Acquiring a new device context...
+Pixel format set:
+  32 color bits, 24 depth bits, 8 stencil bits
+Creating a new rendering context...
+Making the new rendering context current...
+OpenGL driver information:
+  Vendor: Intel
+  Renderer: Intel(R) HD Graphics
+  Version: 2.1.0 - Build 8.15.10.2361
+OpenGL Init: Enabled Extensions
+  ARB_multitexture (Max Texture Units: 8)
+  EXT_compiled_vertex_array
+  EXT_texture_env_combine
+  EXT_packed_pixels
+  EXT_fog_coord
+  ARB_texture_compression
+  EXT_texture_compression_s3tc
+  3DFX_texture_compression_FXT1
+  (ARB|EXT)_texture_env_add
+  EXT_texture_filter_anisotropic (Max anisotropy: 16.000000)
+OpenGL Init: Disabled Extensions
+  EXT_paletted_texture
+  NV_vertex_array_range
+  WGL_EXT_swap_control
+  NPatch tessellation
+
+Loading compiled script common/ui/defaultProfiles.cs.
+Loading compiled script common/ui/GuiEditorGui.gui.
+Loading compiled script common/ui/ConsoleDlg.gui.
+Loading compiled script common/ui/InspectDlg.gui.
+Loading compiled script common/ui/InspectAddFieldDlg.gui.
+Loading compiled script common/ui/LoadFileDlg.gui.
+Loading compiled script common/ui/SaveFileDlg.gui.
+Loading compiled script common/ui/MessageBoxOkDlg.gui.
+Loading compiled script common/ui/MessageBoxYesNoDlg.gui.
+Loading compiled script common/ui/MessageBoxOKCancelDlg.gui.
+Loading compiled script common/ui/MessagePopupDlg.gui.
+Loading compiled script common/ui/HelpDlg.gui.
+Loading compiled script common/ui/RecordingsDlg.gui.
+Loading compiled script common/client/metrics.cs.
+Loading compiled script common/ui/FrameOverlayGui.gui.
+Loading compiled script common/client/messageBox.cs.
+Loading compiled script common/client/screenshot.cs.
+Loading compiled script common/client/cursor.cs.
+Loading compiled script common/client/help.cs.
+Loading compiled script common/client/recordings.cs.
+
+OpenAL Driver Init:
+
+Loading compiled script control/client/profiles.cs.
+Loading compiled script control/client/default_profiles.cs.
+Loading compiled script control/client/interfaces/splashscreen.gui.
+Loading compiled script control/client/interfaces/menuScreen.gui.
+Loading compiled script control/client/interfaces/loadscreen.gui.
+Loading compiled script control/client/interfaces/playerinterface.gui.
+Loading compiled script control/client/interfaces/serverscreen.gui.
+Loading compiled script control/client/misc/screens.cs.
+Loading compiled script control/client/misc/serverscreen.cs.
+Loading compiled script control/client/misc/presetkeys.cs.
+Loading compiled script control/client/client.cs.
+Loading compiled script control/client/misc/transfer.cs.
+Loading compiled script control/client/misc/connection.cs.
+Binding server port to default IP
+UDP initialized on port 0
+Loading compiled script control/server/misc/camera.cs.
+Loading compiled script control/server/misc/shapeBase.cs.
+Loading compiled script control/server/misc/item.cs.
+Loading compiled script control/server/players/player.cs.
+Loading compiled script control/server/players/beast.cs.
+Loading compiled script control/data/models/avatars/beast/player.cs.
+Validation required for shape: control/data/models/avatars/beast/player.dts
+Loading compiled script control/server/players/ai.cs.
+Loading compiled script control/server/weapons/weapon.cs.
+Loading compiled script control/server/weapons/crossbow.cs.
+Object 'AudioClose3d' is not a member of the 'AudioDescription' data block class
+Object 'AudioClose3d' is not a member of the 'AudioDescription' data block class
+Object 'AudioClose3d' is not a member of the 'AudioDescription' data block class
+Object 'AudioDefault3d' is not a member of the 'AudioDescription' data block class
+Error: shape control/data/models/weapons/boltclip.dts-collision detail 0 (Collision-3) bounds box invalid!
+*** LOADING MISSION: control/data/maps/book_ch6.mis
+*** Stage 1 load
+*** Stage 2 load
+Executing control/data/maps/book_ch6.mis.
+*** Mission loaded
+Connect request from: IPX:04000000:000000000500:0
+Connection established 1294
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+GameConnection::onConnectionAccepted
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+CADD: 1295 local
+*** Sending mission load to client: control/data/maps/book_ch6.mis
+Mapping string: ServerMessage to index: 0
+Mapping string: MsgConnectionError to index: 1
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+handleConnectionErrorMessage
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+Mapping string: MsgLoadInfo to index: 2
+Mapping string: MsgLoadDescripition to index: 3
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+GameConnection::setLagIcon
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+Mapping string: MsgLoadInfoDone to index: 4
+Mapping string: MsgClientJoin to index: 5
+Mapping string: Welcome to the Emaga %1. to index: 6
+Mapping string: Reader to index: 7
+Mapping string: MissiOnStartPhase1 to index: 8
+*** New Mission: control/data/maps/book_ch6.mis
+*** Phase 1: Download Datablocks & Targets
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+GameConnection::setLagIcon
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+Mapping string: MissionStartPhase1Ack to index: 0
+Could not locate texture: control/data/models/avatars/beast/base.lmale
+Could not locate texture: control/data/models/avatars/beast/base.lmale
+Validation required for shape: control/data/models/avatars/beast/player.dts
+Error: shape control/data/models/weapons/boltclip.dts-collision detail 0 (Collision-3) bounds box invalid!
+Mapping string: MissiOnStartPhase2 to index: 9
+*** Phase 2: Download Ghost Objects
+Mapping string: MissionStartPhase2Ack to index: 1
+control/server/weapons/weapon.cs (46): Unable to find object: '1308' attempting to call function 'getTransform'
+Added Beast [ 1307 ] :  :  # 0
+control/server/weapons/weapon.cs (46): Unable to find object: '1311' attempting to call function 'getTransform'
+Added Beast [ 1310 ] :  :  # 1
+control/server/weapons/weapon.cs (46): Unable to find object: '1314' attempting to call function 'getTransform'
+Added Beast [ 1313 ] :  :  # 2
+control/server/weapons/weapon.cs (46): Unable to find object: '1317' attempting to call function 'getTransform'
+Added Beast [ 1316 ] :  :  # 3
+control/server/weapons/weapon.cs (46): Unable to find object: '1320' attempting to call function 'getTransform'
+Added Beast [ 1319 ] :  :  # 4
+control/server/weapons/weapon.cs (46): Unable to find object: '1323' attempting to call function 'getTransform'
+Added Beast [ 1322 ] :  :  # 5
+control/server/weapons/weapon.cs (46): Unable to find object: '1326' attempting to call function 'getTransform'
+Added Beast [ 1325 ] :  :  # 6
+control/server/weapons/weapon.cs (46): Unable to find object: '1329' attempting to call function 'getTransform'
+Added Beast [ 1328 ] :  :  # 7
+control/server/weapons/weapon.cs (46): Unable to find object: '1332' attempting to call function 'getTransform'
+Added Beast [ 1331 ] :  :  # 8
+control/server/weapons/weapon.cs (46): Unable to find object: '1335' attempting to call function 'getTransform'
+Added Beast [ 1334 ] :  :  # 9
+control/server/weapons/weapon.cs (46): Unable to find object: '1338' attempting to call function 'getTransform'
+Added Beast [ 1337 ] :  :  # 10
+control/server/weapons/weapon.cs (46): Unable to find object: '1341' attempting to call function 'getTransform'
+Added Beast [ 1340 ] :  :  # 11
+control/server/weapons/weapon.cs (46): Unable to find object: '1344' attempting to call function 'getTransform'
+Added Beast [ 1343 ] :  :  # 12
+control/server/weapons/weapon.cs (46): Unable to find object: '1347' attempting to call function 'getTransform'
+Added Beast [ 1346 ] :  :  # 13
+control/server/weapons/weapon.cs (46): Unable to find object: '1350' attempting to call function 'getTransform'
+Added Beast [ 1349 ] :  :  # 14
+Could not locate texture: 
+Could not locate texture: 
+Could not locate texture: 
+Could not locate texture: 
+Could not locate texture: 
+Could not locate texture: 
+Could not locate texture: 
+Could not locate texture: 
+Ghost Always objects received.
+Mapping string: MissiOnStartPhase3 to index: 10
+Client Replication Startup has Happened!
+fxFoliageReplicator - Client Foliage Replication Startup is complete.
+*** Phase 3: Mission Lighting
+ Successfully loaded mission lighting file: 'control/data/maps/book_ch6_7eef500.ml'
+Mission lighting done
+Mapping string: MissionStartPhase3Ack to index: 2
+Mapping string: MissionStart to index: 11
+Could not register dust emitter for class: HumanMaleAvatar
+Could not register dust emitter for class: HumanMaleAvatar
+Could not register dust emitter for class: HumanMaleAvatar
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+GameConnection::InitialControlSet
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+Setting Initial Control Object
+Activating DirectInput...
+keyboard0 input device acquired.
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+GameConnection::InitialControlSet
+zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
+Mapping string: Beast to index: 12
+Could not register dust emitter for class: HumanMaleAvatar
+Could not register dust emitter for class: HumanMaleAvatar
+Could not register dust emitter for class: HumanMaleAvatar
+Mapping string: MsgItemPickup to index: 13
+Mapping string: You picked up %1 to index: 14
+Mapping string: MsgWeaponUsed to index: 15
+Mapping string: Weapon selected to index: 16
+Exporting client prefs
+Exporting server prefs
+CDROP: 1295 IPX:04000000:000000000500:0
+Shutting down the OpenGL display device...
+Making the GL rendering context not current...
+Deleting the GL rendering context...
+Releasing the device context...
+keyboard0 input device unacquired.

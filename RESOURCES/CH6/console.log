@@ -1,0 +1,116 @@
+//-------------------------- 3/23/2012 -- 12:49:24 -----
+Loading compiled script common/main.cs.
+Missing file: common/defaults.cs!
+Loading compiled script control/main.cs.
+Loading compiled script control/client/presets.cs.
+Loading compiled script control/server/presets.cs.
+++++++++++++ Loading Add-ons ++++++++++++
+Engine initialization complete.
+
+--------- Initializing MOD: Common ---------
+Loading compiled script common/client/canvas.cs.
+Loading compiled script common/client/audio.cs.
+
+++++++++++++ Initializing control module ++++++++++++
+Loading compiled script control/client/initialize.cs.
+Loading compiled script control/server/initialize.cs.
+
+++++++++++++ Initializing module: emaga6 server ++++++++++++
+Loading compiled script common/server/audio.cs.
+Loading compiled script common/server/server.cs.
+Loading compiled script common/server/message.cs.
+Loading compiled script common/server/commands.cs.
+Loading compiled script common/server/missionInfo.cs.
+Loading compiled script common/server/missionLoad.cs.
+Loading compiled script common/server/missionDownload.cs.
+Loading compiled script common/server/clientConnection.cs.
+Missing file: common/server/kickban.cs!
+Loading compiled script common/server/game.cs.
+Loading compiled script control/server/server.cs.
+
+++++++++++++ Initializing module: emaga6 client ++++++++++++
+Loading compiled script common/client/message.cs.
+Loading compiled script common/client/mission.cs.
+Loading compiled script common/client/missionDownload.cs.
+Loading compiled script common/client/actionMap.cs.
+Loading compiled script common/editor/editor.cs.
+Missing file: common/client/scriptDoc.cs!
+Video Init:
+   Accelerated OpenGL display device detected.
+   Accelerated D3D device detected.
+   Voodoo 2 display device not detected.
+
+Activating the OpenGL display device...
+Activating the OpenGL display device...
+Setting screen mode to 800x600x32 (w)...
+Creating a new window...
+Acquiring a new device context...
+Pixel format set:
+  32 color bits, 24 depth bits, 8 stencil bits
+Creating a new rendering context...
+Making the new rendering context current...
+OpenGL driver information:
+  Vendor: Intel
+  Renderer: Intel(R) HD Graphics
+  Version: 2.1.0 - Build 8.15.10.2361
+OpenGL Init: Enabled Extensions
+  ARB_multitexture (Max Texture Units: 8)
+  EXT_compiled_vertex_array
+  EXT_texture_env_combine
+  EXT_packed_pixels
+  EXT_fog_coord
+  ARB_texture_compression
+  EXT_texture_compression_s3tc
+  3DFX_texture_compression_FXT1
+  (ARB|EXT)_texture_env_add
+  EXT_texture_filter_anisotropic (Max anisotropy: 16.000000)
+OpenGL Init: Disabled Extensions
+  EXT_paletted_texture
+  NV_vertex_array_range
+  WGL_EXT_swap_control
+  NPatch tessellation
+
+Loading compiled script common/ui/defaultProfiles.cs.
+Loading compiled script common/ui/GuiEditorGui.gui.
+Loading compiled script common/ui/ConsoleDlg.gui.
+Loading compiled script common/ui/InspectDlg.gui.
+Loading compiled script common/ui/InspectAddFieldDlg.gui.
+Loading compiled script common/ui/LoadFileDlg.gui.
+Loading compiled script common/ui/SaveFileDlg.gui.
+Loading compiled script common/ui/MessageBoxOkDlg.gui.
+Loading compiled script common/ui/MessageBoxYesNoDlg.gui.
+Loading compiled script common/ui/MessageBoxOKCancelDlg.gui.
+Loading compiled script common/ui/MessagePopupDlg.gui.
+Loading compiled script common/ui/HelpDlg.gui.
+Loading compiled script common/ui/RecordingsDlg.gui.
+Loading compiled script common/client/metrics.cs.
+Loading compiled script common/ui/FrameOverlayGui.gui.
+Loading compiled script common/client/messageBox.cs.
+Loading compiled script common/client/screenshot.cs.
+Loading compiled script common/client/cursor.cs.
+Loading compiled script common/client/help.cs.
+Loading compiled script common/client/recordings.cs.
+
+OpenAL Driver Init:
+
+Loading compiled script control/client/profiles.cs.
+Loading compiled script control/client/default_profiles.cs.
+Loading compiled script control/client/interfaces/splashscreen.gui.
+Loading compiled script control/client/interfaces/menuScreen.gui.
+Loading compiled script control/client/interfaces/loadscreen.gui.
+Loading compiled script control/client/interfaces/playerinterface.gui.
+Loading compiled script control/client/interfaces/serverscreen.gui.
+Loading compiled script control/client/misc/screens.cs.
+Loading compiled script control/client/misc/serverscreen.cs.
+Loading compiled script control/client/misc/presetkeys.cs.
+Loading compiled script control/client/client.cs.
+Loading compiled script control/client/misc/transfer.cs.
+Loading compiled script control/client/misc/connection.cs.
+Binding server port to default IP
+UDP initialized on port 0
+Exporting client prefs
+Exporting server prefs
+Shutting down the OpenGL display device...
+Making the GL rendering context not current...
+Deleting the GL rendering context...
+Releasing the device context...

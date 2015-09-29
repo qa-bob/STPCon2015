@@ -1,0 +1,119 @@
+
+
+//--- OBJECT WRITE BEGIN ---
+new GameTSCtrl(PlayerInterface) {
+   profile = "GuiContentProfile";
+   horizSizing = "right";
+   vertSizing = "bottom";
+   position = "0 0";
+   extent = "640 480";
+   minExtent = "8 8";
+   visible = "1";
+   helpTag = "0";
+      noCursor = "1";
+
+   new GuiCrossHairHud() {
+      profile = "GuiDefaultProfile";
+      horizSizing = "center";
+      vertSizing = "center";
+      position = "304 224";
+      extent = "32 32";
+      minExtent = "8 8";
+      visible = "1";
+      helpTag = "0";
+      bitmap = "./interfaces/emaga_gunsight";
+      wrap = "0";
+      damageFillColor = "0.000000 1.000000 0.000000 1.000000";
+      damageFrameColor = "1.000000 0.600000 0.000000 1.000000";
+      damageRect = "50 4";
+      damageOffset = "0 10";
+   };
+
+   new GuiHealthBarHud() {
+      profile = "GuiDefaultProfile";
+      horizSizing = "right";
+      vertSizing = "top";
+      position = "14 315";
+      extent = "26 138";
+      minExtent = "8 8";
+      visible = "1";
+      helpTag = "0";
+      showFill = "1";
+      displayEnergy = "0";
+      showFrame = "1";
+      fillColor = "0.000000 0.000000 0.000000 0.500000";
+      frameColor = "0.000000 1.000000 0.000000 0.000000";
+      damageFillColor = "0.800000 0.000000 0.000000 1.000000";
+      pulseRate = "1000";
+      pulseThreshold = "0.5";
+         value = "1";
+   };
+   new GuiBitmapCtrl() {
+      profile = "GuiDefaultProfile";
+      horizSizing = "right";
+      vertSizing = "top";
+      position = "11 299";
+      extent = "32 172";
+      minExtent = "8 8";
+      visible = "1";
+      helpTag = "0";
+      bitmap = "./interfaces/emaga_healthwidget";
+      wrap = "0";
+   };
+   new GuiHealthBarHud() {
+      profile = "GuiDefaultProfile";
+      horizSizing = "right";
+      vertSizing = "top";
+      position = "53 315";
+      extent = "26 138";
+      minExtent = "8 8";
+      visible = "1";
+      helpTag = "0";
+      showFill = "1";
+      displayEnergy = "1";
+      showFrame = "1";
+      fillColor = "0.000000 0.000000 0.000000 0.500000";
+      frameColor = "0.000000 1.000000 0.000000 0.000000";
+      damageFillColor = "0.000000 0.000000 0.800000 1.000000";
+      pulseRate = "1000";
+      pulseThreshold = "0.5";
+         value = "1";
+   };
+   new GuiBitmapCtrl() {
+      profile = "GuiDefaultProfile";
+      horizSizing = "right";
+      vertSizing = "top";
+      position = "50 299";
+      extent = "32 172";
+      minExtent = "8 8";
+      visible = "1";
+      helpTag = "0";
+      bitmap = "./interfaces/emaga_healthwidget";
+      wrap = "0";
+   };
+   new GuiTextCtrl(scorelabel) {
+      profile = "ScoreTextProfile";
+      horizSizing = "right";
+      vertSizing = "bottom";
+      position = "10 3";
+      extent = "50 20";
+      minExtent = "8 8";
+      visible = "1";
+      helpTag = "0";
+      text = "Score";
+      maxLength = "255";
+   };
+   new GuiTextCtrl(Scorebox) {
+      profile = "ScoreTextProfile";
+      horizSizing = "right";
+      vertSizing = "bottom";
+      position = "50 3";
+      extent = "100 20";
+      minExtent = "8 8";
+      visible = "1";
+      helpTag = "0";
+      text = "0";
+      maxLength = "255";
+   };
+};
+//--- OBJECT WRITE END ---

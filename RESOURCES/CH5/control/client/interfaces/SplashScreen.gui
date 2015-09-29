@@ -1,0 +1,24 @@
+//--- OBJECT WRITE BEGIN ---
+new GuiChunkedBitmapCtrl(SplashScreen) {
+   profile = "GuiDefaultProfile";
+   horizSizing = "width";
+   vertSizing = "height";
+   position = "0 0";
+   extent = "640 480";
+   minExtent = "8 8";
+   visible = "1";
+   helpTag = "0";
+   bitmap = "./interfaces/I_want_to_play2";  //can we replace this bitmap with a mov or avi?
+   //movie - "./interfaces/mymovie.mov
+   useVariable = "0";
+   tile = "0";
+   noCursor=1;
+   new GuiInputCtrl(SplashScreenInputCtrl) {
+      profile = "GuiInputCtrlProfile";
+      position = "0 0";
+      extent = "10 10";
+   };
+};
+
+//--- OBJECT WRITE END ---
+

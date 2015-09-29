@@ -1,0 +1,159 @@
+$traceMode = false;
+$winConsole = true;
+
+trace($traceMode);  // leave this as is, change $traceMode above instead.
+EnableWinConsole($winConsole); // leave alone, change $winConsole instead.
+// send logging output to a windows console window
+//------------------------------------------------------------------------
+//  ./main.cs
+//
+//  root main module for 3DGPAI1 emaga chapter4 sample game
+//
+//  Copyright (c) 2003 by Kenneth C.  Finney.
+//------------------------------------------------------------------------
+
+// ========================================================================
+// ========================= Initializations ==============================
+// ========================================================================
+
+$usageFlag =  false;  //help won't be displayed unless the command line
+                      //switch ( -h ) is used
+
+$logModeEnabled =  true; //track the logging state we set in the next line.
+SetLogMode(2);   // overwrites existing logfile & closes log file at exit.
+
+// ========================================================================
+// ======================= Function Definitions ===========================
+// ========================================================================
+
+function OnStart()
+//------------------------------------------------------------------------
+// Stub for default startup, usually called at the end of this module
+//------------------------------------------------------------------------
+{
+
+}
+function OnExit()
+//------------------------------------------------------------------------
+// This is called from the common code modules. Any last gasp exit
+// acticities we might want to perform can be put in this function.
+// We need to provide a stub to prevent warnings in the log file.
+//------------------------------------------------------------------------
+{
+}
+
+function ParseArgs()
+//------------------------------------------------------------------------
+//  handle the command line arguments
+//
+//  this function is called from the common code
+//
+//------------------------------------------------------------------------
+{
+  for(%i = 1;  %i  < $Game::argc ; %i++) //loop thru all command line args
+  {
+    $currentarg     = $Game::argv[%i];   // get current arg from the list
+    %nextArgument   = $Game::argv[%i+1]; // get arg after the current one
+    %nextArgExists  = $Game::argc-%i > 1;// if there *is* a next arg,note that
+    $logModeEnabled =  false;            // turn this off-let the args dictate
+                                         // if logging should be enabled.
+
+    switch$($currentarg)
+    {
+      case "-dedicated":
+        $Server::Dedicated = true;
+        EnableWinConsole(true);
+        $argumentFlag[%i]++;
+
+      case "-mission":
+        $argumentFlag[%i]++;
+        if (%nextArgExists)
+        {
+           $missionArg = %nextArgument;
+           $argumentFlag[%i+1]++;
+           %i++;
+        }
+        else
+           Error("Error: Missing argument. Usage: -mission <filename>");
+
+      case "-?":       // the user wants command line help, so this cause the
+        $usageFlag = true;   // Usage function to be run, instead of the game
+        $argumentFlag[%i] = true;                // adjust the argument count
+
+      case "-h":         // exactly the same as "-?"
+        $usageFlag = true;
+        $argumentFlag[%i] = true;
+    }
+  }
+}
+
+function Usage()
+//------------------------------------------------------------------------
+// Display the command line usage help
+//------------------------------------------------------------------------
+{
+//  NOTE: any logging entries are written to the file 'console.log'
+  Echo("\n\nemaga6 command line options:\n\n" @
+         " -h, -?              display this message\n" );
+}
+
+function  LoadAddOns(%list)
+//------------------------------------------------------------------------
+// Exec each of the startup scripts for add-ons.
+//------------------------------------------------------------------------
+{
+  if (%list $= "")
+    return;
+  %list = NextToken(%list, token, ";");
+  LoadAddOns(%list);
+  Exec(%token @  "/main.cs");
+}
+
+// ========================================================================
+// ================ Module Body - Inline Statements =======================
+// ========================================================================
+//  Parse the command line  arguments
+ParseArgs();
+
+//  Either  display the help message or start the program.
+if  ($usageFlag)
+{
+  %saveWinConsole = $winConsole;
+  EnableWinConsole(false);// send logging output to a windows console window
+  Usage();
+  EnableWinConsole(%saveWinConsole);//restore windows console mode
+  Quit();
+}
+else
+{
+  //  scan argument list, and log an Error message for each unused argument
+  for ($i = 1;  $i  < $Game::argc; $i++)
+  {
+     if (!$argumentFlag[$i])
+        Error("Error: Unknown command line argument:  " @ $Game::argv[$i]);
+  }
+
+  if  (!$logModeEnabled)
+  {
+     SetLogMode(6);      //  Default to  a new logfile each session.
+  }
+  //  Set the add-on path list to specify the directories that will be
+  //  available to the scripts and engine. note that *all* required
+  //  directory trees are included: common and control as well as the
+  //  user add-ons.
+  $pathList = $addonList !$= "" ? $addonList @ ";control;common" : "control;common";
+  SetModPaths($pathList);
+
+  // Execute startup script for the common code modules
+  Exec("common/main.cs");
+
+  // Execute startup script for the control specific code modules
+  Exec("control/main.cs");
+
+  // Execute startup scripts for all user add-ons
+  Echo("++++++++++++ Loading Add-ons ++++++++++++");
+  LoadAddOns($addonList);
+  Echo("Engine initialization complete.");
+
+  OnStart();
+}

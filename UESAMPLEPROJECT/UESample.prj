@@ -1,0 +1,29 @@
+[Project ID]
+Signature=UE Proj: v.1
+[Group]
+0=SubFolder
+1=SubFolder - SubSubFolder
+2=SubFolderTwo
+3=
+[Open Files]
+Open File0=C:\3DGPAi1\UESAMPLEPROJECT\SubFolderTwo\sample file 5.txt
+Active File Display Mode=3
+Open File Pos0=0
+Open File Line0=0
+Active File Index=0
+Open File Window Pos0=2,3,-1,-1,-4,-20,162,171,735,596
+Open File1=
+[File View]
+Current Select=Project Files\
+Scroll Position=0
+[Project Information]
+Filter=*.*
+Project Directory=C:\3DGPAi1\UESAMPLEPROJECT\
+Use Relative Directory=1
+Relative to Project File=1
+Project Wordfile=
+Project Tagfile=
+Create Tagfile=0
+Include Sub Directories=1
+[Files - SubFolder]
+0=sample file 1

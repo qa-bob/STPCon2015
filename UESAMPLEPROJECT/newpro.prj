@@ -1,0 +1,25 @@
+[Group]
+0=SubFolder
+1=SubFolder - SubSubFolder
+2=SubFolderTwo
+3=
+
+[Files]
+0=C:\3DGPAi1\UESampleProject\sample file 1.txt
+1=C:\3DGPAi1\UESampleProject\sample file 2.txt
+[Open Files]
+Open File0=C:\3DGPAi1\UESampleProject\sample file 1.txt
+Open File Pos0=0
+Open File Line0=0
+Open File Window Pos0=0,1,-1,-1,-4,-23,154,154,613,472
+Open File1=C:\3DGPAi1\UESampleProject\sample file 2.txt
+Open File Pos1=22
+Open File Line1=0
+Active File Index=1
+Open File Window Pos1=2,3,-1,-1,-4,-23,0,0,463,322
+Open File2=
+Active File Display Mode=3
+
+[File View]
+Current Select=Project Files
+Scroll Position=0

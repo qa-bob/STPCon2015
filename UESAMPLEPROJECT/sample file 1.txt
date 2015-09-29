@@ -1,0 +1,342 @@
+3D Game Genres and Styles
+
+Game development is a creative enterprise. There are ways to categorize the
+game genres but I want you to keep in mind that while some games fit each genre
+ like a glove, many others do not. That's the nature of creativity. Developers
+ keep coming up with new ideas; sometimes they are jockeying for an advantage
+ over the competition, sometimes they are just scratching an itch. At other
+ times, calculating marketing departments decide that mixing two popular genres
+ is a sure-fire path to a secure financial future.
+
+The first rule of creative design is that there are no rules. Like all rules, of
+course, there are exceptions. If you are just scratching an itch, then more
+power to you. If you are looking to make a difference in the gaming world, you
+should at least understand the arena. Here we're going look at the most common
+3D genres around today, and a few that are interesting from an historical
+perspective. When you are trying to decide what sort of game you want to create,
+ you should try understanding the genres and using them as guides to help focus
+  your ideas.
+
+It's also important to note that all of the screenshots in this chapter are of
+games by Indie Game developers. Some of them are currently shipping retail games
+and some are still in development. Almost all of them use the same Torque Game
+Engine we will use in this book to develop our own game.
+
+By no means is this a definitive list; there are many genres that don't exist in
+the 3D gaming realm, and the number of ways of combining elements of genres is
+just too large to bother trying to enumerate. If you take pride in your
+creativity, you might resist attempts to pigeonhole your game idea into one of
+these genres, and I wouldn't blame you. However when trying to communicate your
+ideas to others, you will find it very useful to use the genres as shorthand for
+various collections of features, style and game play.
+
+[3]Action
+
+Figure 1.1
+ThinkTanks - a 3rd Person Point-of-view Action Game made by BraveTree
+Productions using Torque.
+
+Action games come in several forms. The most popular are the First Person
+Point-Of-View (1st PPOV), where your player character is armed, as are your
+opponents. The game play is executed through the eyes of your character. These
+ sorts of games are usually called First Person Shooters (FPS). Game play
+ variations include Death Match; Capture the Flag; Attack & Defend;
+ King-of-the-Hill. Action games often have multiplayer online play where your
+  opponents are enemies controlled by real people instead of just
+  computer-controlled opponents. Success in FPS games requires quick reflexes,
+   good eye-hand coordination, and an intimate knowledge of the capabilities
+   of your in-game weapons. Online FPS games are so popular that some games
+   have no single-player game modes.
+
+Some Action games are strictly 3rd PPOV, where you view your player-character,
+ or avatar while also viewing the rest of the virtual world your avatar inhabits
+  (Figure 1.1).
+Half-Life, Rainbow 6 and Delta Force:BlackHawk Down are popular examples of
+FPS-style Action games.
+[3]Adventure
+Adventure games are basically about exploring, go on a quest, find things and
+solve puzzles. The pioneering Adventure games were text based. You would type
+in movement commands, and as you entered each new area or room you were given a
+ brief description of where you were. Phrases like "You are in a maze of twisty
+ passages, all alike" are now gaming classics. The best Adventure games play
+ like interactive books or stories, where you as the player decide what happens
+  next, to a certain degree.
+
+Text adventures evolved into text-based games with static images giving the
+player a better idea of his surroundings. Eventually these merged with 3D
+modeling technology. The player was then presented with either a first- or third
+- person point-of-view of the scene his character was experiencing.
+
+Adventure games are heavily story based and typically very linear. You have to
+find your way from one major accomplishment to the next. As the story develops
+you soon become more capable of predicting where the game is going. Your success
+derives from your ability to anticipate and make the best choices.
+
+Some well-known examples of Adventure games are The King's Quest series, The
+ Longest Journey, and Syberia.
+
+Many elements of Adventure games are now found merged with those of Role Playing
+ Games, and vice versa.
+
+
+Figure 1.2
+
+TubettiWorld - a hybrid Action/Adventure game being developed by Tubetti
+Enterprises, also using Torque
+
+
+Online adventure games have not really come into their own yet, although some
+games are emerging that might fit the genre. They tend to include elements of
+FPS Action games and RPG games to fill out the game play, since the story aspect
+ of the game is more difficult to accomplish in an online environment. Players
+ advance at different speeds, so a monolithic linear storyline would become
+ pretty dreary to more advanced player. An example of an Online Adventure / FPS
+ hybrid is Tubettiworld (Figure 1.2), being developed by my all-volunteer team
+ at Tubetti Enterprises.
+
+[3]Role-Playing
+
+Figure 1.3
+
+Myrmidon - Science Fiction RPG being developed by 21- 6 Productions, another
+Torque-based game.
+
+Role Playing games are very popular, and that popularity probably find its roots
+ in our early childhood. At younger than six or seven, we often imagined and
+ acted out exciting adventures inspired by our action figures and other toys, or
+  children's books. Like strategy games, the more mature forms of these games
+   first evolved as 'pen-and-paper' games, such as Dungeons & Dragons.
+
+These games moved into the computer realm with the computer taking on more of
+the data-manipulation tasks of the game masters. In role-playing games, the
+player is usually responsible for the development of his game character's
+skills, physical appearance, loyalties and other characteristics. Eventually,
+the game environment moved from each player's imaginations onto the computer,
+with rich 3-D fantasy worlds populated by visually satisfying representations of
+ buildings, monsters and creatures (Figure 1.3). RPGs are usually science
+ fiction or fantasy based, with some historically oriented games being popular
+ in certain niches.
+
+[3]Mazes & Puzzles
+
+
+Figure 1.4
+
+Marble Blast - a Maze and Puzzle hybrid game by GarageGames using their Torque
+Game Engine.
+
+Maze and Puzzle games are somewhat similar to each other. In a Maze game you
+need to find your way through a 'physical' maze where your routes are defined by
+ walls and other barriers.. Early Maze games were 2D, viewed from the top; more
+ recent ones play more like 3D Adventure or FPS games.
+
+Puzzle games are often like Maze games but with problems that need to be solved
+instead of 'physical' barriers to progress.
+
+Mazes also make their appearance in arcade pinball-style games such as Marble
+Blast (Figure 1.4) by Garage Games. It is a Maze and Puzzle hybrid game where
+you compete against the clock in an effort to navigate a marble around physical
+ barriers. The puzzle aspect lies in determining the fastest (not necessarily
+ the most direct) route to the finish line.
+
+***Insert Figure 01-05.TIF
+
+
+Chain Reactions -  Puzzle Game by Monster Studios, using their Reaction Engine
+
+Puzzle games sometimes use puzzles that are variations of the shell game, or
+more indirect problem solving puzzles where you must cause a series of things to
+ happen in order to trigger some further action that lets you advance. Many
+ puzzle games utilize direct problem solving modes where the puzzle is presented
+  visually. You then need to manipulate on-screen icons or controls in the
+  correct sequences to solve the problem. The best puzzles are those where the
+  solution can be deduced using logic. Puzzles that require pure trial-and-error
+   problem solving techniques tend become tedious rather quickly. An historic
+   example of a puzzle game is The Incredible Machine series by Dynamix. The
+   latest variation of this type is the new game Chain Reactions by Monster
+   Studios (Figure 1.5).
+
+[3] Simulators
+
+The goal of a Simulator game is to reproduce a real-world situation as
+accurately as possible. The measure of the accuracy is usually called its
+fidelity. Most simulators put a heavy emphasis on the fidelity of the visual
+appearance, sounds and physics of the game.
+
+The point is total immersion in the game environment, so that you get the
+feeling that you are actually there. You may be flying a jet fighter or a
+thoroughbred Grand Prix racing car. The game mirrors the real life experience to
+ the maximum the developers can manage.
+
+Simulators usually require specialized input devices and controllers, such as
+aircraft joysticks and rudder pedals. Many simulator enthusiasts build complete
+ physical cockpit mockups to enhance the immersion experience.
+
+[3]Sports
+
+Sport games are a variation of the simulator class of games where the
+developer's intent is to reproduce the broad experience of the game as
+accurately as possible.
+
+Unlike the action-oriented Flight and Driving Simulators, Sports games usually
+ have a 'Season' or 'Manager' angle where you can also take on the role of
+ coach, owner or team manager. You can execute draft picks and trades or groom
+  new players like any major league ball organization would. In a modern sports
+  simulator you could be managing budgets; you might play or race a regular
+  year's schedule, and different stadiums, arenas, or tracks; you then can play
+  out the part of one or more of the roles of the team.
+
+[3]Strategy
+
+Strategy games began as 'pen-and-paper' games, like war games, that have been
+around for centuries. As computer technology evolved, computer-based tables and
+random-number generators replaced the decision-making aspects of strategy games,
+ traditionally embodied by look-up charts and dice rolls.
+
+Eventually the tabletop battlefields (or sand-box battlefields) with their
+cardboard markers or die-cast military miniatures moved into the computers as
+well. The early tabletop games were usually turn-based: each player would in
+turn consider his options and issue his 'orders' to his units, then the dice
+would be thrown to determine the result of the orders, The players would then
+modify the battlefield based upon the results. Next, the players would observe
+the new shape of the battlefield and plot their next moves. The cycle then
+repeated itself.
+
+The advent of computer-based strategy games brought the concept of real-time to
+the forefront. Now the computer determines the moves and results and structures
+the battlefield accordingly. It does this on a time-scale that reflects the
+action. Sometimes the computer will compress the time-scale, and other times the
+ computer will operate in real-time, where one minute of time in the game action
+ takes one minute in the real world.. The player issues orders to his unit as he
+ deems them to be necessary.
+
+There are Strategy games that exist outside the world of warfare. Some examples
+ include business strategy games and political strategy games. Some of these
+  games are evolving into Strategic Simulations, like the well-known SimCity
+  series of games.
+
+
+Table 1-1 A list of some popular retail 3D games and their genres.
+Game	Publisher	Genre
+Doom III	Activision	Action-FPS
+WarCraft III: Reign Of Chaos	Blizzard	RTS
+Grand Theft Auto: Vice City	Rockstar Games	Action/Sim
+Star Wars Jedi Knight 3	LucasArts	Action-FPS
+Battlefield 1942	Electronic Arts	Action-FPS
+Homeworld	Sierra	RTS
+Everquest	Sony	RPG
+Diablo	Blizzard	RPG
+Enter The Matrix	Infogrames	Action-FPS
+Half Life 2    	Sierra	Action-FPS
+Command & Conquer	Electronic Arts	RTS
+Unreal Tournament 2003  	Infogrames	Action-FPS
+Rainbow Six 3: Raven Shield	UbiSoft	Action-FPS
+Delta Force: Blackhawk Down	Novalogic	Action-FPS
+Civilization III	MicroProse	Strategy
+Duke Nukem Forever	Gathering of Developers	Action-FPS
+PlanetSide	Sony	Action-FPS
+Tom Clancy's Splinter Cell	UbiSoft	Action-FPS
+Age of Empires	Microsoft	Strategy
+Unreal II The Awakening	Infogrames	Action-FPS
+Star Trek Elite Force 2	Activision	Action-FPS
+Return to Castle Wolfenstein	Activision	Action-FPS
+Medal of Honor: Allied Assault	Electronic Arts	Action-FPS
+WarCraft III: The Frozen Throne	Blizzard	RTS
+Dungeon Siege	Microsoft	Action/RPG
+Myst III Exile	UbiSoft	Adventure
+The Longest Journey	Funcom	Adventure
+Syberia	Microids	Adventure
+SimCity 4	Electronic Arts	Strategy-Sim
+
+
+[2]Game Platforms
+
+This book is about computer games written for personal computers. There are
+three dominant operating systems - Microsoft Windows, Linux, and MacOS. For some
+ of these systems there are quite a few different flavors, but the differences
+  within each system are usually negligible, or at least manageable.
+
+Another obvious game platform type is the home game console such as the Sony
+Playstation or the Nintendo Gamecube. These are indeed important, but because of
+ the closed nature of the development tools and the expensive licenses required
+ to create games for them, they are beyond the scope of this book.
+
+Other game platforms include Personal Digital Assistants (PDAs) such as the Palm
+-based computers, and cell phones that support protocols that permit games to
+played on them. Again, these platforms are also beyond the scope of this book.
+
+Now that those little disclaimers are out of the way, let's take a closer look
+at the three game platforms of interest. It's important to note that by using
+the Torque Game Engine, you will be able to develop what amounts to a single
+code base for a game that you can ship for all three platforms - Windows, Linux
+and Macintosh!
+
+[3]Windows
+
+Windows has various historical versions but the current flavors are Windows
+ 2000, Windows XP and the specialized Windows CE. In this book, the expectation
+  will be that you are developing on, or for a Windows XP target system, since
+  that is the version that Microsoft is now selling to the home computer market
+
+Within Windows XP, we will be using DirectX and OpenGL as our low-level graphics
+ Application Programming Interfaces (APIs). These APIs provide a means for our
+ engine to access the features of the video adapters in our computers. Both
+ DirectX and OpenGL provide basically the same services, but each has its
+ strengths and weaknesses. With Torque you will have the choice of letting your
+ end-users use either API.
+
+OpenGL's greatest strength lies in its availability with different computer
+systems. This has obvious benefits for the developer, making it easier to create
+ a game that works on the largest number of computers. OpenGL is an open-source
+  product. In a nutshell, this means that if there is a particular capability
+  that you want that OpenGL lacks, you can get access to the OpenGL source code
+  and rebuild it the way you want. This assumes you have the skills, time and
+  tools necessary to get the job done, but you can do it.
+
+DirectX is proprietary - it is the creation and intellectual property of
+Microsft Corporation. Its biggest advantage is that it tends to support more
+features than OpenGL, and the 3D video adapter manufacturers tend to design
+their hardware to work with DirectX as much as they can. With DirectX you get a
+much more complete and the most advanced feature set. Unfortunately, you are
+limited to Windows-based system if you put all your eggs in the DirectX basket.
+
+The Torque Game Engine uses both APIs, and gives you a rather straightforward
+set of techniques to setup your game with either. This means that in a Windows
+version of your game you can offer your user the option of using the API that
+best suits their video adapter.
+
+[3]Linux
+
+For most people, the single most important reason to use Linux is the price -
+it's free. You may have to pay to get a distribution of Linux on CD with manuals
+at a store, but you are paying for the cost of burning the CD, writing and
+printing the manuals, and distribution. You don't have to pay for the operating
+system itself. In fact, you can download Linux from many different locations on
+the Internet.
+
+As a game developer, your interest in targeting Linux will be three-fold.
+
+·	Linux is a growing market place, and any market that is growing is a good
+target. Although the market is growing, it is still smaller than the Windows
+market. However, the place where Linux is growing is in universities, colleges
+and other post-secondary institutions - and this is probably where your best
+computer gaming audience is.
+
+·	There are few computer games available for Linux desktops; most developers
+focus on Windows because it is the biggest market. If you ship a game for Linux,
+ you will be a bigger fish in a smaller ocean. That gets you exposure and a
+ reputation that you can build on. And that's nothing to sneeze at.
+
+·	Linux offers more a more configurable and secure environment for unattended
+Internet game servers. Linux servers can be run in a console mode that requires
+ no fancy graphics, buttons or mice. This allows you to utilize slower computers
+  with less memory for servers and still get the computing power you need for
+  your game server.
+
+Unlike other operating systems, Linux comes in a variety of flavors known as
+ distributions. There are many ongoing arguments about the merits of one
+ distribution or another. Some of the more popular distributions are Redhat,
+ SuSe, Mandrake, Turbolinux, Debian, Slackware, and Caldera. Although they may
+  be organized differently in some cases and each has its unique graphical look
+   and feel, they are all based on the same kernel. It is the kernel that
+   defines it as Linux.

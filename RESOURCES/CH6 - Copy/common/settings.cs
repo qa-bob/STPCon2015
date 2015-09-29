@@ -1,0 +1,13 @@
+$Pref::Server::AdminPassword = "";
+$Pref::Server::BanTime = 1800;
+$Pref::Server::ConnectionError = "You do not have the correct version of 3DGPAI1 client or the related art needed to play on this server. This is the server for Chapter 6. Please check that chapter for directions.";
+$Pref::Server::FloodProtectionEnabled = 1;
+$Pref::Server::Info = "3D Game Programming All-In-One by Kenneth C. Finney.";
+$Pref::Server::KickBanTime = 300;
+$Pref::Server::MaxChatLen = 120;
+$Pref::Server::MaxPlayers = 64;
+$Pref::Server::Name = "3DGPAI1 Book - Chapter 6 Server";
+$Pref::Server::Password = "";
+$Pref::Server::Port = 28000;
+$Pref::Server::RegionMask = 2;
+$Pref::Server::TimeLimit = 20;

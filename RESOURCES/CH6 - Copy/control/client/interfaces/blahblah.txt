@@ -1,0 +1,4 @@
+$Server::DevMode = 1;
+$Server::MissionFileSpec = "*/missions/*.mis";
+$Server::Status = "Unknown";
+$Server::TestCheats = 0;
